@@ -1,0 +1,47 @@
+<section>
+  <h2>🌟 Portfolio</h2>
+  <div class="portfolio">
+    <div class="portfolio-item">
+      <img src="image1" alt="Shadow Gamer Logo">
+      <p><strong>Shadow Gamer Logo</strong><br>
+        A dynamic gaming logo featuring a mysterious character with spiky white hair and piercing yellow eyes, masked and framed by bold geometric shapes in yellow and black. The design captures an energetic and competitive gaming vibe, perfect for esports branding.
+      </p>
+    </div>
+    <div class="portfolio-item">
+      <img src="image2" alt="Pratik Design Logo">
+      <p><strong>Pratik Design Logo</strong><br>
+        A striking logo design displaying the words "PRATIK DESIGN" in a bold, angular font with a stone-like texture. The dark green outlines and dynamic layout convey creativity and strength, ideal for a personal brand or design studio.
+      </p>
+    </div>
+    <div class="portfolio-item">
+      <img src="image3" alt="Ninja Warrior Logo">
+      <p><strong>Ninja Warrior Logo</strong><br>
+        A dramatic ninja-themed logo showing a hooded warrior dressed in tactical gear, with two swords crossed on their back. The character is set against a bright yellow circular background, emphasizing action and skill—excellent for gaming teams or martial arts branding.
+      </p>
+    </div>
+  </div>
+</section>
+
+<style>
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+.portfolio-item {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 16px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 2px 8px #39ff1422;
+}
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  border: 2px solid #39ff14;
+}
+</style>
